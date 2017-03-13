@@ -1,0 +1,41 @@
+{
+  "name": "fivetwelve-driver-usbpro",
+  "version": "1.0.0",
+  "description": "Driver to use the fivetwelve-library with an enttec usbpro mk2 professional dmx-interface.",
+  "keywords": [
+    "dmx",
+    "dmx512",
+    "fivetwelve",
+    "fivetwelve-driver",
+    "enttec",
+    "usbpro"
+  ],
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel/register test/*Test.js && eslint lib/ test/",
+    "compile": "babel -d lib-es5 lib",
+    "prepublish": "npm run test && npm run compile"
+  },
+  "author": "Martin Schuhfuss <m.schuhfuss@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/beyondscreen/fivetwelve-driver-usbpro",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beyondscreen/fivetwelve-driver-usbpro"
+  },
+  "bugs": {
+    "url": "https://github.com/beyondscreen/fivetwelve-driver-usbpro/issues"
+  },
+  "peerDependencies": {
+    "fivetwelve": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.34",
+    "eslint": "^1.10.3",
+    "expect.js": "^0.3.1",
+    "mocha": "^2.3.4"
+  }
+}
