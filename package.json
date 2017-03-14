@@ -1,6 +1,6 @@
 {
   "name": "fivetwelve-driver-usbpro",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Driver to use the fivetwelve-library with an enttec usbpro mk2 professional dmx-interface.",
   "keywords": [
     "dmx",
