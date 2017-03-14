@@ -20,7 +20,7 @@
     "prepublish": "npm run test && npm run compile"
   },
   "author": "Martin Schuhfuss <m.schuhfuss@gmail.com>",
-  "license": "MIT",
+  "license": "GPL-3",
   "homepage": "https://github.com/beyondscreen/fivetwelve-driver-usbpro",
   "repository": {
     "type": "git",
