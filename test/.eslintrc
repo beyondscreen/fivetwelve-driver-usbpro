@@ -1,0 +1,7 @@
+{
+  "extends": "../.eslintrc",
+  "rules": {
+    "max-len": [2, 120, 2],
+    "require-jsdoc": 0
+  }
+}
