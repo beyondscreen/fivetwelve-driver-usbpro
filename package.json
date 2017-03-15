@@ -30,7 +30,7 @@
     "url": "https://github.com/beyondscreen/fivetwelve-driver-usbpro/issues"
   },
   "peerDependencies": {
-    "fivetwelve": "^1.0.0"
+    "fivetwelve": "^1.0.0-alpha.1"
   },
   "devDependencies": {
     "babel": "^5.8.34",
