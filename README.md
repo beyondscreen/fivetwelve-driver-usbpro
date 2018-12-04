@@ -1,6 +1,10 @@
-# fivetwelve driver for ENTTEC USB PRO mk2
+# fivetwelve driver for the USB PRO family by enttec
 
-This is a [fivetwelve][] driver for the [USB PRO mk2][usbpromk2] DMX-interface made by enttec.
+This is a [fivetwelve][] driver for the USBPRO DMX-interface family made by enttec.
+From this line the following devices have been tested:
+
+* [Enttec USB Pro][usbpro]
+* [Enttec USB Pro mk2][usbpromk2]
 
 ## installation
 
@@ -38,4 +42,5 @@ PRs welcome! Please feel free to [open an issue][issues] if you have any questio
 
 [fivetwelve]: https://github.com/beyondscreen/fivetwelve
 [issues]: https://github.com/beyondscreen/fivetwelve-driver-usbpro/issues
-[usbpromk2]: http://www.enttec.com/?main_menu=Products&pn=70314
+[usbpro]: https://www.enttec.com/products/controls/dmx-usb/dmx-usb-pro/
+[usbpromk2]: https://www.enttec.com/products/controls/dmx-usb/pro-mk2/
